@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+builds/
+
+# Eclipse
+.pydevproject
+.cproject
+.project
+.settings/
+src/search/.cproject
+src/search/.project
+src/search/.settings/

@@ -1,0 +1,95 @@
+Parsing and Instantiating...
+Done
+One way facts...
+Mutex groups...
+Semaphore Facts...
+Envelope Facts...
+One-shot actions...
+(u_goal_action_1_2--q1--q2_131_201_301) is 1 shot
+(u_goal_action_1_2--q1--q2_141_201_301) is 1 shot
+(u_goal_action_1_2--q1--q2_151_201_301) is 1 shot
+(u_goal_action_1_2--q1--q2_121_201_301) is 1 shot
+(u_goal_action_1_2--q1--q2_141_201_301) is 1 shot
+(u_goal_action_1_3--q1--q3_141_201_301) is 1 shot
+(u_goal_action_4_2--q4--q2_141_201_301) is 1 shot
+(u_goal_action_4_3--q4--q3_121_201_301) is 1 shot
+(u_goal_action_4_3--q4--q3_141_201_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_211_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_221_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_231_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_241_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_251_301) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_311) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_321) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_331) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_341) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_351) is 1 shot
+(u_goal_action_1_3--q1--q3_121_231_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_241_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_251_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_221_301) is 1 shot
+(u_goal_action_1_3--q1--q3_121_241_301) is 1 shot
+(u_goal_action_1_2--q1--q2_111_221_301) is 1 shot
+(u_goal_action_1_2--q1--q2_111_241_301) is 1 shot
+(u_goal_action_4_2--q4--q2_111_221_301) is 1 shot
+(u_goal_action_4_2--q4--q2_111_241_301) is 1 shot
+(u_goal_action_4_3--q4--q3_111_221_301) is 1 shot
+(u_goal_action_4_3--q4--q3_111_241_301) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_331) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_341) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_351) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_321) is 1 shot
+(u_goal_action_4_2--q4--q2_121_201_341) is 1 shot
+(u_goal_action_1_3--q1--q3_111_201_321) is 1 shot
+(u_goal_action_1_3--q1--q3_111_201_341) is 1 shot
+(u_goal_action_1_2--q1--q2_111_211_321) is 1 shot
+(u_goal_action_1_2--q1--q2_111_211_341) is 1 shot
+(u_goal_action_4_3--q4--q3_111_211_321) is 1 shot
+(u_goal_action_4_3--q4--q3_111_211_341) is 1 shot
+Integral variables...
+Variable bounds...
+Static numeric conditions...
+Duration bounds...
+TIL time window analysis...
+Bounding action timestamps due to time windows...
+Dominance constraints (excluding processes and events)...
+Damaging events...
+Dominance constraints (including processes and events)...
+Variable monotonicity...
+Max/min needed values for any single precondition...
+Irrelevant action pruning by backward reachability from goal...
+Uninterestingness criteria...
+Compression-safe actions...
+Compression-safe invariants...
+40% of durative actions in this problem are compression safe
+Goal Goal [7]
+    (p3)
+    (p2)
+    (p1)
+    (u_goal_q1_q3)
+    (u_goal_q1_q2)
+    (u_goal_q2_q4)
+    (u_goal_q3_q4)
+
+Finishing preprocessing.  Making a TRPG heuristic...
+Making an open list...
+Running WA* search (g weight = 1, h weight = 5)
+{(located_at_1_q1),(located_at_2_q2),(located_at_3_q3),(located_at_4_q4),(not_u_goal_q1_q2),(not_u_goal_q1_q3),(not_u_goal_q1_q4),(not_u_goal_q2_q1),(not_u_goal_q2_q3),(not_u_goal_q2_q4),(not_u_goal_q3_q1),(not_u_goal_q3_q2),(not_u_goal_q3_q4),(not_u_goal_q4_q1),(not_u_goal_q4_q2),(not_u_goal_q4_q3),(p1_0),(pnot1_1),(pnot1_2),(pnot1_3),(pnot1_4),(pnot1_5),(pnot1_6),(pnot1_7),(pnot1_8),(pnot1),(p2_0),(pnot2_1),(pnot2_2),(pnot2_3),(pnot2_4),(pnot2_5),(pnot2_6),(pnot2_7),(pnot2_8),(pnot2),(p3_0),(pnot3_1),(pnot3_2),(pnot3_3),(pnot3_4),(pnot3_5),(pnot3_6),(pnot3_7),(pnot3_8),(pnot3)}
+[]
+Initial heuristic = 9
+Initial stats: t=0.01s, 7480kb
+b (8 @ n=6, t=0.01s, 7480kb)b (7 @ n=9, t=0.01s, 7480kb)b (6 @ n=17, t=0.01s, 7480kb)b (5 @ n=25, t=0.01s, 7480kb)b (4 @ n=33, t=0.01s, 7480kb)b (3 @ n=38, t=0.01s, 7480kb)b (2 @ n=42, t=0.01s, 7480kb)b (1 @ n=49, t=0.01s, 7480kb)
+;;;; Solution Found
+; Time 0.01
+; Peak memory 7480kb
+; Nodes Generated: 51
+; Nodes Expanded:  8
+; Nodes Evaluated: 51
+; Nodes Tunneled:  0
+; Nodes memoised with open actions: 31
+; Nodes memoised without open actions: 20
+; Nodes pruned by memoisation: 0
+0.010: (u_goal_action_4_3--q4--q3_121_201_301) [3.000] ; (118)
+3.011: (u_goal_action_1_2--q1--q2_111_221_301) [4.000] ; (127)
+7.012: (u_goal_action_4_2--q4--q2_111_211_301) [4.000] ; (131)
+11.013: (u_goal_action_1_3--q1--q3_111_201_311) [3.000] ; (145)
