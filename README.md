@@ -1,7 +1,6 @@
 # AuToPN
-Automatic generation of Temporal Planning networks (TPNs)
 
-AutoPN is automatic process for generating Temporal Planning Networks (TPNs) for an input temporal planning problem.
+AuToPN is automatic process for generating Temporal Planning Networks (TPNs) from input temporal planning problems.
 
 # Requirmrnts
 
